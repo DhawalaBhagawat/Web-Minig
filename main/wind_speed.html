@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Wind Speed from Open Weather API</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <div style="border-radius: 5px; display: inline-block; margin: 10px; font-size: 22px; padding: 10px; color: indianred; background-color: beige;">
+        The speed of the wind right now is {{ wind_speed }}
+    </div>
+</div>
+
+
+<div style="text-align: center;">
+    <input id="zip_input" autofocus style="padding: 10px; font-size: 22px;" placeholder="Zip Code" />
+</div>
+<div style="text-align: center;">
+    <div class="btn btn-info btn-lg" style="cursor: pointer; margin: 10px;" onclick="send_zip_code();">
+        Get me the temperature
+    </div>
+</div>
+</body>
+</html>
